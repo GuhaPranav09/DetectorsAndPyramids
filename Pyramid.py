@@ -5,8 +5,7 @@ import matplotlib.pyplot as plt
 # Load images
 A = cv.imread('images/apple.png')
 B = cv.imread('images/orange.png')
-assert A is not None, "Apple image file could not be read."
-assert B is not None, "Orange image file could not be read."
+
 
 A = cv.cvtColor(A, cv.COLOR_BGR2RGB)
 B = cv.cvtColor(B, cv.COLOR_BGR2RGB)
